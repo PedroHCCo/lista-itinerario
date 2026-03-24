@@ -1,21 +1,15 @@
-Setup Tarefa: Lista Itinerário
+# Lista Itinerário
 
-DESCRIÇÃO
-Este projeto contém a estrutura inicial para a implementação de uma lista de itinerário, seguindo os padrões de organização de pastas (src, include, tests).
+## Descrição
+Este projeto consiste na implementação de uma lista de itinerário em C++, organizada para facilitar a gestão de rotas e destinos.
 
-REQUISITOS
-* **Compilador**: GCC/G++ versão 9 ou superior.
-* **IDE**: Visual Studio Code (VSCode) com a extensão C/C++ instalada.
+## Requisitos
+* **GCC/G++**: Versão 9.0 ou superior para compilação.
+* **IDE**: Recomendado o uso do Visual Studio Code (VSCode) com a extensão C/C++ da Microsoft.
 
-COMPILAÇÃO E EXECUÇÃO
+## Compilação e Execução
 
-FLUXO PRINCIPAL
-Para compilar o código principal, execute no terminal:
-`g++ main.cpp -o programa`
-
-PARA RODAR:
-`./programa`
-
-TESTES
-Para compilar e rodar os testes (quando implementados):
-`g++ tests/*.cpp -I include -o exec_teste`
+### Fluxo Principal
+Para compilar o projeto principal, utilize o seguinte comando no terminal:
+```bash
+g++ main.cpp -I include -o programa
