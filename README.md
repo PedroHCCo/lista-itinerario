@@ -1,15 +1,18 @@
-# Lista Itinerário
+# Projeto Lista Itinerario
 
 ## Descrição
-Este projeto consiste na implementação de uma lista de itinerário em C++, organizada para facilitar a gestão de rotas e destinos.
+Código em C++ para gerenciar uma lista de itinerários.
 
 ## Requisitos
-* **GCC/G++**: Versão 9.0 ou superior para compilação.
-* **IDE**: Recomendado o uso do Visual Studio Code (VSCode) com a extensão C/C++ da Microsoft.
+- GCC/G++ versão 9.0 ou superior
+- VS Code com extensões de C++
 
 ## Compilação e Execução
+Para compilar:
+g++ main.cpp -o programa
 
-### Fluxo Principal
-Para compilar o projeto principal, utilize o seguinte comando no terminal:
-```bash
-g++ main.cpp -I include -o programa
+Para executar:
+./programa
+
+Para os testes:
+g++ tests/*.cpp -I include -o exec_teste
