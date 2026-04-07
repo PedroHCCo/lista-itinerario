@@ -16,6 +16,9 @@ Para compilar e executar o fluxo principal do sistema, abra o terminal na raiz d
 ```bash
 g++ main.cpp -o sistema_rotas
 
+
+
+
 1. Qual variação de lista foi escolhida?
 A estrutura escolhida para o desenvolvimento do sistema foi a Lista Duplamente Encadeada.
 
