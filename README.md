@@ -32,7 +32,7 @@ Para compilar e executar os arquivos de teste (localizados no diretório `tests`
 
 **Compilação e Execução:**
 ```bash
-g++ tests/seu_arquivo_de_teste.cpp -o teste_executavel
+g++ main.cpp src/RotaOnibus.cpp -o sistema_rotas
 ./teste_executavel
 ```
 
